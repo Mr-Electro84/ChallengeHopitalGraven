@@ -22,18 +22,15 @@
 			<!-- haut de page -->
 			<header>
 				<div>
-					<!-- numero de telephone -->
-					<p><span class="fa fa-volume-control-phone"></span>Tel : +331 20 20 20 20</p>
-					
-					<!-- logo -->
-					<span style="font-size: 50px;"><a href="index.html">Gravizen<img src="images/logo.png" alt=" "></a></span>
+					<!-- numero de telephone et logo-->
+					<p><span style="font-size: 50px;"><a href="index.html">Gravizen<img src="images/logo.png" alt=" "></a></span><span class="fa-volume-control-phone"></span>Tel : +331 20 20 20 20</p>
 				</div>
 			</header>
 			<!-- haut de page -->
 			<!-- menu de navigation -->
 			<div id="navigation">
 				<nav>
-					<table style="width: 100%; border-radius: 5px;" border="1">
+					<table style="width: 100%; border-radius: 5px; height: auto;" border="0">
 						<tbody>
 						  <tr>
 							<td><a id="menu-element" href="index.html">Accueil</a></td>
@@ -61,10 +58,10 @@
 
 			<!-- bannière d'accueil -->
 			<div>
-				<table style="width: 100%" border="1">
+				<table style="width: 100%" border="0">
 					<tbody>
 					  <tr>
-						<td><div>
+						<td><div style="text-align: center;">
 							<img id="main-img" src="images/banner.png" alt="banner" />
 						</div></td>
 						<td><div>
@@ -139,34 +136,34 @@
 						<h2>Nos soins</h2>
 					</div>
 					<div>
-						<table style="width: 100%" border="1">
+						<table style="width: 100%" border="0">
 							<tbody>
 							  <tr>
 								<td><div>
 									<div>
 										<span class="fa fa-stethoscope"></span>
-										<h4>Généraliste</h4>
+										<h4>🩺 - Généraliste</h4>
 										<p>Une simple révision, un besoin immédiat sur une demande non specifique.</p>
 									</div>
 								</div></td>
 								<td><div>
 									<div>
 										<span class="fa fa-user-md"></span>
-										<h4>Dermatologie</h4>
+										<h4>🔎 - Dermatologie</h4>
 										<p>Etude de la peau, des cheveux, des poils et des ongles ainsi qu'à la prévention, au diagnostic et au traitement des maladies qui les touchent.</p>
 									</div>
 								</div></td>
 								<td><div>
 									<div>
 										<span class="fa fa-wheelchair"></span>
-										<h4>Cardialogie</h4>
+										<h4>❤ - Cardialogie</h4>
 										<p>Malformations congénitales, troubles du rythme et de la conduction, pathologies des valves, insuffisance cardiaque, cardiomyopathies.</p>
 									</div>
 								</div></td>
 								<td><div>
 									<div>
 										<span class="fa fa-plus-square"></span>
-										<h4>Urgence Covid</h4>
+										<h4>🦠 - Urgence Covid</h4>
 										<p>Cas contact, test PCR, prise de sang, consultation urgente.</p>
 									</div>
 								</div></td>
@@ -213,7 +210,7 @@
 				<table style="width: 100%" border="1">
 					<tbody>
 					  <tr>
-						<td><div>
+						<td><div style="text-align: center;">
 							<img id="inter-img" src="images/app1.png" alt="">
 						</div></td>
 						<td><div>
@@ -253,7 +250,7 @@
 				<table style="width: 100%" border="1">
 					<tbody>
 					  <tr>
-						<td><div>
+						<td><div style="text-align: center;">
 							<img id="inter-img" src="images/mid.png" alt=""/>
 						</div></td>
 						<td><div>
@@ -278,7 +275,7 @@
 					<h3>Professionnels</h3>
 				</div>
 				<div>
-					<table style="width: 100%" border="1">
+					<table style="width: 100%" border="0">
 						<tbody>
 						  <tr>
 							<td><img id="doc-img" src="images/t3.png" alt=""></td>
@@ -322,7 +319,8 @@
 								<img id="blog-img" src="images/blog2.jpg" alt="image">
 							</a>
 						</div></td>
-						<td><div><span>Février 20, 2021 - blog</span>
+						<td><div><span><i>Février 20, 2021 - blog</i></span>
+							<br>
 							<br>
 							<a href="#">TEST COVID A DOMICILE</a></div></td>
 						<td><div>
@@ -336,7 +334,8 @@
 								<img  id="blog-img" src="images/blog1.jpg" alt="image">
 							</a>
 						</div></td>
-						<td><div><span>Février 20, 2021 - blog</span>
+						<td><div><span><i>Février 20, 2021 - blog</i></span>
+							<br>
 							<br>
 							<a href="#">L'APPLICATION VERSION 2.0</a></div></td>
 						<td><div>
@@ -350,7 +349,8 @@
 								<img  id="blog-img" src="images/blog3.png" alt="image">
 							</a>
 						</div></td>
-						<td><div><span>Février 20, 2021 - blog</span>
+						<td><div><span><i>Février 20, 2021 - blog</i></span>
+							<br>
 							<br>
 							<a href="#">SUIVI INTELLIGENT</a></div></td>
 						<td><div>
@@ -384,11 +384,11 @@
 						<span>Message : </span><textarea id="el-form" name="message" placeholder="Entrer votre message"></textarea>
 						<br>
 						<br>
-						<button onclick="message()" class="basic-button" type="submit">Envoyer</button>
+						<button onclick="msg()" class="basic-button" type="submit">Envoyer</button>
 						<script>
     
 
-							function message() {
+							function msg() {
 								alert("Merci de nous avoir contacté, notre équipe va vous répondre dans les plus brefs délais.")
 							}
 						</script>
@@ -403,13 +403,13 @@
 		<section id="facts">
 			<!-- chiffres -->
 			<div>
-				<table style="width: 100%" border="1">
+				<table style="width: 100%" border="0">
 					<tbody>
 					  <tr>
-						<td><h3>Gravizen en quelques chiffres</h3></td>
+						<td><h3>Gravizen en quelques chiffres :</h3></td>
 						<td>
 						<div>
-							<table style="width: 100%" border="1">
+							<table style="width: 100%" border="0">
 								<tbody>
 								  <tr>
 									<td><div>
