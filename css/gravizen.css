@@ -1,0 +1,94 @@
+/*CSS (SCSS) de Gravizen*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: beige;
+}
+
+.nav-button a {
+  color: white;
+}
+
+.est-centre {
+  text-align: center;
+}
+
+.esp-form-10px {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#app-dd {
+  display: none;
+  background-color: cornflowerblue;
+}
+#app-dd a {
+  color: white;
+}
+
+#app-dd-parent:hover #app-dd {
+  display: block;
+}
+
+#title-site {
+  margin-bottom: 30px;
+  padding: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+  background-color: cornflowerblue;
+  transition: 0.5s;
+}
+#title-site a {
+  color: white;
+}
+#title-site:hover {
+  border-radius: 10px;
+  background-color: beige;
+  color: cornflowerblue;
+  transition: 0.5s;
+}
+#title-site:hover a {
+  color: cornflowerblue;
+}
+
+#img-store {
+  width: 50%;
+  height: auto;
+}
+
+#img-doc {
+  height: 400px;
+  width: auto;
+  transition: 0.5s;
+}
+#img-doc:hover {
+  height: 500px;
+  width: auto;
+  transition: 0.5s;
+}
+
+#img-news {
+  border-radius: 30px;
+  transition: 0.5s;
+}
+#img-news:hover {
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#contact {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  #app-dd-parent:hover #app-dd {
+    display: block;
+    margin-top: 70px;
+  }
+}
+
+/*# sourceMappingURL=gravizen.css.map */
